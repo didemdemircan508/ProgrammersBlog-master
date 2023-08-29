@@ -14,3 +14,5 @@ namespace ProgrammersBlog.Shared.Entities.Abstract
         public virtual string Message { get; set; }
     }
 }
+
+

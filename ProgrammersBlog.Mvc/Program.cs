@@ -29,6 +29,8 @@ builder.Services.AddSession();
 builder.Services.AddAutoMapper(typeof(CategoryProfile), typeof(ArticleProfile), typeof(UserProfile));
 builder.Services.LoadMyServices();
 
+
+
 builder.Services.AddAuthorization(options =>
 {
     options.FallbackPolicy = new AuthorizationPolicyBuilder()
